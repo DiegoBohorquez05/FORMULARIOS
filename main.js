@@ -36,3 +36,5 @@ document.getElementById('recordarme').addEventListener('change', function (z) {
         alert('Desea que recordemos sus datos?')
     }
 })
+
+document.getElementById('ingresar').innerHTML = window.location
