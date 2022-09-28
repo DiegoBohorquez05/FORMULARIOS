@@ -57,11 +57,10 @@
     <div class="productos" id="Productos">
         <div class="desplegable">
             <select name="productos" id="seleccione">
-                <option value="">          </option>
-                <option value="">Producto 1</option>
-                <option value="">Producto 2</option>
-                <option value="">Producto 3</option>
-                <option value="">Producto 4</option>
+                <option value="ninguno">          </option>
+                <option value="producto1">Producto 1</option>
+                <option value="producto2">Producto 2</option>
+                <option value="producto3">Producto 3</option>
             </select>
             <div class="boton">
                 <button id="boton1">Pedir</button>
@@ -97,6 +96,18 @@
     </div>
     <div class="abajo">
         <p>HECHO POR: JUAN DIEGO BOHORQUEZ ORDUZ</p>
+    </div>
+
+    <div class="modal">
+        <div class="modalito">
+            <h3>INFORMACION DEL PEDIDO</h3>
+            <p>Producto seleccionado:</p>
+            <p id="productoEsco">------------------------</p>
+            <div class="botonesModal">
+                <button class="cancelar">CANCELAR</button>
+                <button class="aceptar">ACEPTAR</button>
+            </div>
+        </div>
     </div>
 
     <script src="script.js"></script>

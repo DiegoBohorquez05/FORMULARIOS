@@ -143,3 +143,26 @@ body {
     width: 60%;
     margin-left: 10%;
 }
+
+.modal{
+    background-color: rgba(0, 0, 0, 0.46);
+    height: 1120px;
+    position: absolute;
+    top: -1120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalito{
+    background-color: white;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.botonesModal{
+    margin-top: 10px;
+}
