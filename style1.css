@@ -49,6 +49,8 @@ body {
     height: 600px;
     font-size: 20px;
     text-align: center;
+    position: relative;
+    top: 2rem;
 }
 
 #imagen1 {
