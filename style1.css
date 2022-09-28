@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    border: solid 1px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body {
+    background: url(./imagenes/pexels-moaz-tobok-12824123.jpg)no-repeat center center fixed;
+}
+
+.contenido {
+    display: flex;
+    float: left;
+}
+
+.izquierda {
+    width: 65%;
+    height: 600px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#imagen1 {
+    height: 350px;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.productos{
+    display: flex;
+    float: left;
+    width: 100%;
+}
+
+.derecha {
+    height: 600px;
+    width: 30%;
+}
+
+.desplegable{
+    margin-left: 50px;
+    margin-top: 5%;
+}
+
+.boton{
+    margin-top: 50%;
+}
+
+#boton1{
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+}
+
+#seleccione{
+    height: 25px;
+    width: 100px;
+    background-color:blue;
+    color: white;
+    border-radius: 10%;
+}
+
+.tarjeta1{
+    border: solid 1px;
+    height: 300px;
+    width: 250px;
+    margin-left: 10%;
+    background-color: white;
+    border-radius: 10px;
+}
+.tarjeta2{
+    border: solid 1px;
+    height: 300px;
+    width: 250px;
+    margin-left: 10%;
+    background-color: white;
+    border-radius: 10px;
+}
+.tarjeta3{
+    border: solid 1px;
+    height: 300px;
+    width: 250px;
+    margin-left: 10%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.abajo{
+    text-align: center;
+    color: white;
+}
