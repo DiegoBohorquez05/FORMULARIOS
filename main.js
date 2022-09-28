@@ -11,6 +11,9 @@ boton.addEventListener('click', e => {
 
     if (usarname === 'carlitos' && password === 'carlitos123') {
         alert('Correctas')
+        setTimeout(() => {
+            location = './index.html'
+        })
     } else {
         document.querySelector('#mensaje').style.display = 'block'
         setTimeout(() => {
@@ -36,5 +39,3 @@ document.getElementById('recordarme').addEventListener('change', function (z) {
         alert('Desea que recordemos sus datos?')
     }
 })
-
-document.getElementById('ingresar').innerHTML = window.location
