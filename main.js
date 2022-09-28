@@ -12,7 +12,7 @@ boton.addEventListener('click', e => {
     if (usarname === 'carlitos' && password === 'carlitos123') {
         alert('Correctas')
         setTimeout(() => {
-            location = './index.html'
+            location = './index.html' //Cuando se colocan bien los datos, se va a redirigir a la pagina index.html
         })
     } else {
         document.querySelector('#mensaje').style.display = 'block'
