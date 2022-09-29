@@ -39,9 +39,14 @@ body {
     background: url(./imagenes/pexels-moaz-tobok-12824123.jpg)no-repeat center center fixed;
 }
 
+nav{
+    flex-wrap: wrap;
+}
+
 .contenido {
     display: flex;
     float: left;
+    flex-wrap: wrap;
 }
 
 .izquierda {
@@ -51,6 +56,7 @@ body {
     text-align: center;
     position: relative;
     top: 2rem;
+    flex-wrap: wrap;
 }
 
 #imagen1 {
@@ -100,26 +106,24 @@ body {
     background-color: rgba(255, 116, 9, 0.486);
     border-radius: 10px;
     font-size: 18px;
-    margin-left: 100px;
+    margin-left: 20px;
 }
 .tarjeta2{
     height: 450px;
     width: 250px;
-    margin-left: 50px;
+    margin-left: 20px;
     background-color: rgba(255, 116, 9, 0.486);
     border-radius: 10px;
     font-size: 18px;
-    margin-left: 100px;
 }
 .tarjeta3{
     height: 450px;
     width: 250px;
-    margin-left: 50px;
+    margin-left: 20px;
     background-color: rgba(255, 116, 9, 0.486);
     border-radius: 10px;
     font-size: 18px;
-    position: absolute;
-    margin-left: 800px;
+    margin-top: 5px;
 }
 
 .abajo{
@@ -141,7 +145,8 @@ body {
 .tarjetas{
     display: flex;
     width: 60%;
-    margin-left: 10%;
+    margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .modal{
@@ -165,4 +170,10 @@ body {
 
 .botonesModal{
     margin-top: 10px;
+}
+
+@media (min-width: 1000px) {
+    nav{
+        width: 100%;
+    }
 }

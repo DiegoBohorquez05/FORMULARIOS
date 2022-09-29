@@ -4,6 +4,7 @@ const modal=document.querySelector('.modal')
 const seleccionado=document.getElementById('productoEsco')
 
 const cancelar=document.querySelector('.cancelar')
+const aceptar=document.querySelector('.aceptar')
 
 pedir.addEventListener('click',()=>{
     if(lista.options[lista.selectedIndex].value==='ninguno'){
@@ -17,4 +18,9 @@ pedir.addEventListener('click',()=>{
 cancelar.addEventListener('click',()=>{
     modal.style.top='-1120px'
     lista.selectedIndex=0
+})
+
+aceptar.addEventListener('click',()=>{
+    setTimeout(() => {
+        location = './ultima.html'})
 })
